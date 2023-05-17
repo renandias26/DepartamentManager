@@ -8,7 +8,7 @@ class Departamento{
     }
 
     public AddColaborador(Nome: string, Gerente: boolean): boolean{
-        if (this.Colaboradores.length > 5){
+        if (this.Colaboradores.length > 4){
             return false
         }
         if(Gerente){
